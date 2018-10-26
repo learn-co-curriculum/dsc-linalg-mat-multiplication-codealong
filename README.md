@@ -1,5 +1,5 @@
 
-# Matrix Multiplication - code along
+# Matrix Multiplication - Code Along
 
 ## Introduction
 Understanding matrix operation is very important for a deeper understanding of linear algebra. We know matrices are used throughout the field of machine learning in the description of algorithms and representation of data. In this lesson, we shall discover how to manipulate matrices in Python and Numpy.
@@ -104,7 +104,7 @@ print(A, '\ndot', '\n', B, '\n=\n', C)
 # Code here 
 ```
 
-### Matrix-Vector Dot Product
+## Matrix-Vector Dot Product
 
 A matrix and a vector can be multiplied together as long as the rule of matrix multiplication (stated above) is observed. The number of columns in the matrix must equal the number of rows in the vector. As with matrix multiplication, the operation can be written using the dot notation. Because the vector only has one column, the result is always a vector. See the general approach below where A is the matrix being multiplied to v, a vector
 ```
