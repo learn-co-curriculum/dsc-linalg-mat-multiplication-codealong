@@ -108,6 +108,7 @@ print(A, '\ndot', '\n', B, '\n=\n', C)
 
 A matrix and a vector can be multiplied together as long as the rule of matrix multiplication (stated above) is observed. The number of columns in the matrix must equal the number of rows in the vector. As with matrix multiplication, the operation can be written using the dot notation. Because the vector only has one column, the result is always a vector. See the general approach below where A is the matrix being multiplied to v, a vector
 ```
+     a11, a12
 A = (a21, a22)
      a31, a32
 
