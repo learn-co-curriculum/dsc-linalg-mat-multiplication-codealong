@@ -195,7 +195,7 @@ print(A,'\ndot', '\n',v,'\n=',C)
 
 From basic geometry, you know that a vector has magnitude (how long it is) and direction. Two vectors can be multiplied using the "Cross Product". The cross product or vector product is a binary operation on two vectors in three-dimensional space. The result is a vector which is perpendicular to the vectors being multiplied and normal to the plane containing them. 
 
-<img src="images/cross.png" width="200">
+<img src="images/new_cross.png" width="200">
 
 The cross product of two vectors a and b is denoted by $(a \times b)$. 
 
