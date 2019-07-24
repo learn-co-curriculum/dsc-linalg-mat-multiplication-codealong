@@ -169,7 +169,7 @@ $$ C =
   \left[ {\begin{array}{cc}
    A_{1,1}* v_1 & A_{1,2}* v_2 \\
    A_{2,1}* v_1 & A_{2,2}* v_2  \\
-   A_{3,1}* v_1 & B_{3,2}+ v_2\\
+   A_{3,1}* v_1 & A_{3,2}* v_2\\
   \end{array} } \right]
 $$
 
@@ -189,6 +189,7 @@ print(A,'\ndot', '\n',v,'\n=',C)
 
 ```python
 # Code here 
+
 ```
 
 ## Cross Product
