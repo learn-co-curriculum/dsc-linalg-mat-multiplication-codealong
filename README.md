@@ -165,13 +165,14 @@ $$ v =
   \end{array} } \right] 
 $$
 
-$$ C = 
-  \left[ {\begin{array}{cc}
-   A_{1,1}* v_1 & A_{1,2}* v_2 \\
-   A_{2,1}* v_1 & A_{2,2}* v_2  \\
-   A_{3,1}* v_1 & A_{3,2}* v_2\\
-  \end{array} } \right]
 $$
+C = 
+  \left[ {\begin{array}{cc}
+   A_{1,1} * v_1 + A_{1,2} * v_2 \\
+   A_{2,1} * v_1 + A_{2,2} * v_2 \\
+   A_{3,1} * v_1 + A_{3,2} * v_2 \\
+  \end{array} } \right]
+  $$
 
 The matrix-vector multiplication can be implemented in NumPy using the `dot()` function as seen before.
 
@@ -183,12 +184,13 @@ v = np.array([0.5, 0.5])
 
 C = A.dot(v)
 
-print(A,'\ndot', '\n',v,'\n=',C)
+print(A, 'dot', v, f'= {C}', sep='\n')
 ```
 
 
 ```python
 # Code here 
+
 
 ```
 
