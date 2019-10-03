@@ -17,7 +17,7 @@ Multiplication of two matrices is one of the most crucial operations involving m
 
 > $C = AB$
 
-The standard product of two matrices is not just a matrix containing element-wise product of the individual elements. This type of operation is a _special case_ and is called the element-wise product, or the **Hadamard product**.
+The standard product of two matrices is not just a matrix containing the element-wise product of the individual elements. This type of operation is a _special case_ and is called the element-wise product, or the **Hadamard product**.
 
 ## Hadamard Product
 
